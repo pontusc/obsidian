@@ -1,1 +1,4 @@
+ - Homepage is broken for cloud deploy
+ - Better GitHub Actions for aboutmepage
+ - Cert for all domains under nejlikka.com
  - [https://github.com/rancher/system-upgrade-controller](https://github.com/rancher/system-upgrade-controller)
