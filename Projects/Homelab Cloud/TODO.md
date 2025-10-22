@@ -1,3 +1,1 @@
- - Finish Authentik integration with Grafana
- - Add ArgoCD hook to generate configmaps from files in folder
  - [https://github.com/rancher/system-upgrade-controller](https://github.com/rancher/system-upgrade-controller)
