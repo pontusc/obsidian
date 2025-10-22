@@ -47,6 +47,73 @@ stringData:
           enrollment_flow: !Find [authentik_flows.flow, [slug, default-source-enrollment]]
           authentication_flow: !Find [authentik_flows.flow, [slug, default-source-authentication]]
 ```
+
+## OAuth Provider for Argo
+Store below as a file in a secret
+```yaml
+version: 1
+metadata:
+  name: argocd-oauth-provider
+entries:
+  - model: authentik_providers_oauth2.oauth2provider
+    state: created
+    identifiers:
+      name: ArgoCD
+    attrs:
+      invalidation_flow: !Find [authentik_flows.flow, [slug, default-provider-invalidation-flow]]
+      authorization_flow: !Find [authentik_flows.flow, [slug, default-provider-authorization-implicit-consent]]
+      client_type: confidential
+      client_id: argocd
+      client_secret: GENERATE_SELF
+      redirect_uris:
+        - matching_mode: strict
+          url: https://argocd.cloud.nejlikka.com/api/dex/callback
+        - matching_mode: strict
+          url: https://localhost:8085/auth/callback
+      signing_key: !Find [authentik_crypto.certificatekeypair, [name, authentik Self-signed Certificate]]
+      property_mappings:
+        - !Find [authentik_providers_oauth2.scopemapping, [scope_name, openid]]
+        - !Find [authentik_providers_oauth2.scopemapping, [scope_name, email]]
+        - !Find [authentik_providers_oauth2.scopemapping, [scope_name, profile]]
+
+```
+
+## OAuth Application for Argo
+
+```yaml
+version: 1
+metadata:
+  name: argocd-integration
+entries:
+  # Dependencies
+  - model: authentik_blueprints.metaapplyblueprint
+    attrs:
+      identifiers:
+        name: argocd-oauth-provider
+
+  - model: authentik_core.group
+    state: created
+    identifiers:
+      name: ArgoCD Admins
+    attrs:
+      is_superuser: false
+
+  - model: authentik_core.group
+    state: created
+    identifiers:
+      name: ArgoCD Viewers
+    attrs:
+      is_superuser: false
+
+  - model: authentik_core.application
+    state: created
+    identifiers:
+      slug: argocd
+    attrs:
+      name: ArgoCD
+      provider: !Find [authentik_providers_oauth2.oauth2provider, [name, ArgoCD]]
+
+```
 ## Forward Auth
 ```yaml
 version: 1
