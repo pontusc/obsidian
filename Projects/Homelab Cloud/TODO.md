@@ -1,4 +1,4 @@
- - Homepage is broken for cloud deploy
- - Better GitHub Actions for aboutmepage
+ - Homepage is broken for cloud deploy, check structure for new version
+ - Better GitHub Actions for aboutme, add develop branch to test with Argo
  - Cert for all domains under nejlikka.com
  - [https://github.com/rancher/system-upgrade-controller](https://github.com/rancher/system-upgrade-controller)
