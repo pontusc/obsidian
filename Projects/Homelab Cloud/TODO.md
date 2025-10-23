@@ -1,4 +1,5 @@
  - Homepage is broken for cloud deploy, check structure for new version
  - Better GitHub Actions for aboutme, add develop branch to test with Argo
  - Cert for all domains under nejlikka.com
+ - Kill old homelab and move DNS records
  - [https://github.com/rancher/system-upgrade-controller](https://github.com/rancher/system-upgrade-controller)
