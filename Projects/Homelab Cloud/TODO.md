@@ -2,4 +2,5 @@
  - Better GitHub Actions for aboutme, add develop branch to test with Argo
  - Cert for all domains under nejlikka.com
  - Kill old homelab and move DNS records
+ - Redesign entire Authentik flow, if you logout in one service should be globally logged
  - [https://github.com/rancher/system-upgrade-controller](https://github.com/rancher/system-upgrade-controller)
