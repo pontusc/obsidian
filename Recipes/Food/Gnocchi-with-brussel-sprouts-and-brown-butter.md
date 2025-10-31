@@ -1,4 +1,5 @@
 ## Ingredients
+
 - 450g brussels sprouts
 - 1 lemon
 - 60ml extra-virgin olive oil
@@ -19,3 +20,4 @@ In a large (preferably 30cm) skillet, heat 45ml olive oil over medium-high. Add 
 
 **Step 3**
 In the same skillet, heat the remaining 15ml olive oil over medium-high. Break up any stuck gnocchi, add them to the pan and cook, covered and undisturbed, until golden brown on one side, 2 to 4 minutes. Add the butter and honey, season with salt and generous black pepper, and cook, stirring, until the butter is golden, nutty smelling and foaming, 1 to 2 minutes. Stir in the brussels sprouts until warmed through. Serve with grated Parmesan.
+
