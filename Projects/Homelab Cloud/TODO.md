@@ -1,4 +1,5 @@
  - Better GitHub Actions for aboutme, add develop branch to test with Argo
  - Redesign entire Authentik flow, if you logout in one service should be globally logged
  - [https://github.com/rancher/system-upgrade-controller](https://github.com/rancher/system-upgrade-controller)
+ - Read https://evoila.com/blog/automating-kubernetes-host-management-rancher-system-upgrade-controller/
  - Remove Healthchecks from appearing in logs
