@@ -16,7 +16,7 @@
 Add onion, garlic, salt, black pepper, oregano, lemon juice, Dijon mustard, water and olive oil to a blender. Blend until smooth.
 
 **Step 2**
-Pour marinade over chicken quarters in a deep pan. Using hands, coat both sides thoroughly. Arrange chicken and potatoes in the pan. Sprinkle additional oregano over the top.
+Pour marinade over chicken quarters and potatoes in a deep pan. Using hands, coat everything thoroughly. Sprinkle additional oregano over the top and drizzle more olive oil.
 
 **Step 3**
-Line pan with parchment paper. Bake at 200°C for 50 to 60 minutes until chicken is cooked through and golden.
+Bake at 200°C for 50 to 60 minutes until chicken is cooked through and golden.
