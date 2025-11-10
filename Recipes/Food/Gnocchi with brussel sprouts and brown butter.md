@@ -11,7 +11,6 @@
 - Freshly grated Parmesan, for serving
 
 ## Steps
-
 **Step 1**
 Trim and halve the brussels sprouts. Using a vegetable peeler, peel thick strips of lemon zest, then coarsely chop. (You should have about 10ml chopped zest.)
 
